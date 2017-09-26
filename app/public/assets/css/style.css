@@ -1,0 +1,123 @@
+body {
+  background-color: #FF3813;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  line-height: normal;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  color: #1B2F43;
+  line-height: normal;
+}
+
+#header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+#header img {
+  width: 90%;
+}
+
+#c3po {
+  width: 250px;
+  border-radius: 180px;
+  border: 10px solid #FFD700;
+}
+
+#c3po-div {
+  padding-bottom: 5%;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#row1 {
+  background-color: #E8EAEC;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin: 0;
+  color: #444;
+}
+
+#row2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 0;
+  margin: 0;
+  background-color: #76828E;
+}
+
+#text {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.button {
+  background-color: #E8EAEC;
+  border: 3px solid #1B2F43;
+  margin-top: 20px;
+  padding: 12px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #1B2F43;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #1B2F43;
+  border-color: #1B2F43;
+  color: #FFD700;
+}
+
+.counter {
+  color: #FFD700;
+}
+
+.a:hover {
+  font-weight: bold;
+  color: #1B2F43;
+}
+
+.b:hover {
+  font-weight: bold;
+  color: #1B2F43;
+}
+
+.c:hover {
+  font-weight: bold;
+  color: #1B2F43;
+}
+
+.d:hover {
+  font-weight: bold;
+  color: #1B2F43;
+}
+
+
+/*Sticky Footer*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 60px 0;
+  padding: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-top: 15px;
+  background-color: #FF3813;
+  color: #76E8B6;
+}
