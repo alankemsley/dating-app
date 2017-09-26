@@ -1,0 +1,25 @@
+{
+  "name": "dating-app",
+  "version": "1.0.0",
+  "description": "Dating App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alankemsley/dating-app.git"
+  },
+  "author": "Alan Kemsley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alankemsley/dating-app/issues"
+  },
+  "homepage": "https://github.com/alankemsley/dating-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "path": "^0.12.7"
+  }
+}
