@@ -2,10 +2,11 @@
 var matchesArray = [
   {
     "name": "",
+    "photo": "",
     "gender": "",
     "preference": "",
-    "profile": "",
     "personality": "",
+    "bio": ""
   }
 ];
 
