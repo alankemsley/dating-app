@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Materialize CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Link to main CSS file -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Google Fonts CDN -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,800" rel="stylesheet">
+  <!-- Materialze Icons CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Finder | Personality Quiz</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav id="nav">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo" class="logo-link">
+        <img id="logo-img" src="assets/images/finder-logo.png" alt="Finder Logo">
+      </a>
+      <ul id="nav-links" class="right hide-on-med-and-down">
+        <li><a href="index.html">ABOUT</a></li>
+        <li><a href="index.html">TESTIMONIALS</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main id="main">
+
+    <!-- Personal Information -->
+    <div class="row" id="info-row">
+      <div class="container">
+        <div class="col m1"></div>
+        <div class="col m10 center-align">
+
+          <h3>Personal Information</h3>
+          <br>
+
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="name" type="text" class="validate">
+                <label for="name">Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="photo" type="url" class="validate">
+                <label for="photo">Link to Profile Picture</label>
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <div class="col m1"></div>
+      </div>
+    </div>
+
+    <!-- Quiz Questions -->
+    <div class="row" id="quiz-row">
+      <div class="container">
+        <div class="col m1"></div>
+        <div class="col m10 center-align">
+
+          <!-- Pitch -->
+          <h3>Personality Quiz</h3>
+          <br>
+          <h5>1. Take our personality quiz and get matched today.</h5>
+
+          <!-- Button -->
+          <div class="col s12 center-align">
+            <a href="quiz.html" class="btn-large waves-effect waves-light"id="quiz-button">SUBMIT</a>
+          </div>
+
+        </div>
+        <div class="col m1"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="page-footer">
+    <div class="row container">
+        <div class="col s12 center-align">
+          <br>
+          <p>* This is relative.</p>
+          <p>&copy; 2017 Alan Kemsley</p>
+        </div>
+    </div>
+  </footer>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Materialize JavaScript CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Link to main JavaScript file -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

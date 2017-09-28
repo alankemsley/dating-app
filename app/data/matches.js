@@ -1,14 +1,12 @@
 // Data holding matches
-var matchesArray = [
+var matches = [
   {
     "name": "",
     "photo": "",
-    "gender": "",
-    "preference": "",
     "personality": "",
     "bio": ""
   }
 ];
 
 // Export data
-module.exports = matchesArray;
+module.exports = matches;

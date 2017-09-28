@@ -18,11 +18,51 @@ body h3, h4, h5, h6 {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   color: #555;
-  line-height: normal;
+  line-height: 1.2;
+}
+
+body h6 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: #FF3813;
+  line-height: 1.2;
 }
 
 p {
   font-size: 16px;
+}
+
+/*Buttons*/
+#quiz-button-nav {
+  background-color: #EFEFEF;
+  color: #FF3813;
+  font-weight: 800;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#quiz-button-nav:hover {
+  opacity: 0.8;
+}
+
+#quiz-button {
+  background-color: #FF3813;
+  margin: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 800;
+}
+
+#quiz-button:hover {
+  opacity: 0.8;
+}
+
+.more-buttons {
+  margin: 50px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #EFEFEF;
 }
 
 /*Navbar*/
@@ -38,44 +78,69 @@ p {
   padding-top: 10px;
 }
 
-#quiz-button-nav {
-  background-color: #FF3813;
-  border: 2px solid #FFF;
-  color: #FFF;
-  font-weight: 800;
-}
-
-#quiz-button-nav:hover {
-  background-color: #FFF;
-  border: 2px solid #FFF;
-  color: #FF3813;
-}
-
 /*Main*/
 
 #main {
-  background-color: #E8EAEC;
-  padding-top: 100px;
-  padding-left: 0;
-  padding-right: 0;
+  background-color: #666;
+  padding: 0;
   margin: 0;
   color: #444;
 }
 
-#quiz-button {
+#row1 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: #DDD;
+}
+
+#row2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: #EFEFEF;
+}
+
+#row3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
   background-color: #FF3813;
-  margin: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-weight: 800;
+}
+
+#user1 img {
+  width: 150px;
+  border: 5px solid #EFEFEF;
+}
+
+#row4 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: #DDD;
+}
+
+/*Quiz page*/
+#info-row {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: #EFEFEF;
+}
+
+#quiz-row {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: #DDD;
 }
 
 /*Sticky Footer*/
 
 #footer {
-  height: 60px;
-  background-color: #FF3813;
-  color: #FFF;
+  height: 150px;
+  background-color: #555;
+  color: #EFEFEF;
 }
 
 body {
