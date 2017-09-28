@@ -1,6 +1,9 @@
-// Trigger modal
+// Upon page load...
 $(document).ready(function() {
+  // Listen for modal trigger
   $(".modal").modal();
+  // Set default quiz values to 1
+  $("#q1, #q2, #q3, #q4").val(1);
 });
 
 // Submit quiz

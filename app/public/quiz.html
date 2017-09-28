@@ -141,12 +141,24 @@
 
   <!-- Modal -->
   <div id="modal" class="modal">
-    <div class="modal-content center-align">
-      <h5>Congrats!<br>You've matched with <span style="color: #FF3813">Dwight</span></h5>
+    <div class="modal-content">
+
+      <!-- Match Photo -->
+      <div class="col s12 m4 center-align" id="match">
+        <img id="matchPhoto" class="circle" src="assets/images/dwight.png" alt="Your match">
+      </div>
+
+      <!-- Match Info -->
+      <div class="col m8 center-align">
+        <h5>Congrats!<br>You've matched with <span id="matchName" style="color: #FF3813">Dwight</span></h5>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat" id="close">Close</a>
+      </div>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat" id="close">Close</a>
-    </div>
+
   </div>
 
   <!-- Footer -->

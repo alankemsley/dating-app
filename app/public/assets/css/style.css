@@ -115,11 +115,6 @@ p {
   background-color: #FF3813;
 }
 
-#user1 img {
-  width: 150px;
-  border: 5px solid #FFF;
-}
-
 #row4 {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -166,6 +161,18 @@ p {
 .question {
   margin-top: 90px;
   margin-bottom: 45px;
+}
+
+/*Images*/
+
+#user1 img {
+  width: 150px;
+  border: 5px solid #FFF;
+}
+
+#match img {
+  width: 150px;
+  border: 5px solid #FF3813;
 }
 
 /*Sticky Footer*/
