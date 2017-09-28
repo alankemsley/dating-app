@@ -11,7 +11,7 @@ module.exports = function(app) {
   // API POST request
   app.post("/api/matches", function(req, res) {
     matches.push(req.body);
-    currentMatchScore = 10;
+    currentMatchScore = 50;
     for (i=0; i<matches.length; i++) {
       findMatch(req.body, matches[i]);
     }

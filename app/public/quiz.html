@@ -20,7 +20,7 @@
   <!-- Navbar -->
   <nav id="nav">
     <div class="nav-wrapper container">
-      <a href="index.html" class="brand-logo" class="logo-link">
+      <a href="index.html" class="brand-logo logo-link">
         <img id="logo-img" src="assets/images/finder-logo.png" alt="Finder Logo">
       </a>
       <ul id="nav-links" class="right hide-on-med-and-down">
@@ -87,9 +87,6 @@
             <p>Strongly Agree</p>
           </div>
 
-
-
-
           <!-- Question 1 -->
           <div class="col m12 left-align">
             <h5 class="question">More often than not, you prefer to spend time alone doing something you enjoy rather than with a group of people.</h5>
@@ -105,7 +102,7 @@
             <h5 class="question">More often than not, your mind is buzzing with ideas, imaginations, or fantasies, rather than focused on experiencing the present.</h5>
             <form action="#">
               <p class="range-field">
-                <input type="range" id="q1" min="1" max="4" />
+                <input type="range" id="q2" min="1" max="4" />
               </p>
             </form>
           </div>
@@ -115,7 +112,7 @@
             <h5 class="question">More often than not, you do not like to express deep feelings and emotions with friends.</h5>
             <form action="#">
               <p class="range-field">
-                <input type="range" id="q1" min="1" max="4" />
+                <input type="range" id="q3" min="1" max="4" />
               </p>
             </form>
           </div>
@@ -125,14 +122,14 @@
             <h5 class="question">More often than not, you are inclined to be more laid-back and flexible with your time rather than planning ahead and having an organized structure to your everyday life.</h5>
             <form action="#">
               <p class="range-field">
-                <input type="range" id="q1" min="1" max="4" />
+                <input type="range" id="q4" min="1" max="4" />
               </p>
             </form>
           </div>
 
           <!-- Button -->
           <div class="col s12 center-align">
-            <a href="quiz.html" class="cab btn-large waves-effect waves-light">SUBMIT</a>
+            <a class="cab btn-large waves-effect waves-light modal-trigger" href="#modal" id="submit">SUBMIT</a>
           </div>
 
         </div>
@@ -142,12 +139,21 @@
 
   </main>
 
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content center-align">
+      <h5>Congrats!<br>You've matched with <span style="color: #FF3813">Dwight</span></h5>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">Close</a>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer id="footer" class="page-footer">
     <div class="row container">
         <div class="col s12 center-align">
           <br>
-          <p>* This is relative.</p>
           <p>&copy; 2017 Alan Kemsley</p>
         </div>
     </div>
@@ -158,7 +164,7 @@
   <!-- Materialize JavaScript CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <!-- Link to main JavaScript file -->
-  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <script type="text/javascript" src="assets/javascript/script.js"></script>
 </body>
 
 </html>
