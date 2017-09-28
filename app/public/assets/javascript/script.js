@@ -18,7 +18,7 @@ $("#submit").click(function() {
       $("#matchPhoto").attr("src", data.photo);
     });
   } else {
-    alert("Please enter all the required information.");
+    Materialize.toast("Please enter all the required information.", 2000);
   }
 });
 
