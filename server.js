@@ -17,6 +17,9 @@ app.use(bodyParser.json({
   type: "application/vnd.api+json"
 }));
 
+// Set up Express to server static files
+app.use(express.static('public'));
+
 // Listener
 app.listen(PORT, function() {
   console.log("App listening on port: " + PORT);
