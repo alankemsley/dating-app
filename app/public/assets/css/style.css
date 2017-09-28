@@ -34,7 +34,7 @@ p {
 
 /*Buttons*/
 #quiz-button-nav {
-  background-color: #EFEFEF;
+  background-color: #FFF;
   color: #FF3813;
   font-weight: 800;
   padding-left: 35px;
@@ -62,7 +62,7 @@ p {
   margin-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
-  color: #EFEFEF;
+  color: #FFF;
 }
 
 /*Navbar*/
@@ -91,14 +91,14 @@ p {
   padding-top: 100px;
   padding-bottom: 50px;
   margin: 0;
-  background-color: #DDD;
+  background-color: #32E1D5;
 }
 
 #row2 {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0;
-  background-color: #EFEFEF;
+  background-color: #E6F4F4;
 }
 
 #row3 {
@@ -110,14 +110,14 @@ p {
 
 #user1 img {
   width: 150px;
-  border: 5px solid #EFEFEF;
+  border: 5px solid #FFF;
 }
 
 #row4 {
   padding-top: 100px;
   padding-bottom: 50px;
   margin: 0;
-  background-color: #DDD;
+  background-color: #E6F4F4;
 }
 
 /*Quiz page*/
@@ -125,14 +125,14 @@ p {
   padding-top: 100px;
   padding-bottom: 50px;
   margin: 0;
-  background-color: #EFEFEF;
+  background-color: #CDEAE8;
 }
 
 #quiz-row {
   padding-top: 100px;
   padding-bottom: 50px;
   margin: 0;
-  background-color: #DDD;
+  background-color: #E6F4F4;
 }
 
 /*Sticky Footer*/
@@ -140,7 +140,7 @@ p {
 #footer {
   height: 150px;
   background-color: #555;
-  color: #EFEFEF;
+  color: #FFF;
 }
 
 body {
