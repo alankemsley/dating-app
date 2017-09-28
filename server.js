@@ -26,5 +26,5 @@ app.listen(PORT, function() {
 });
 
 // Router
-require("./app/routing/apiRoutes")(app);
-require("./app/routing/htmlRoutes")(app);
+require("./routing/apiRoutes")(app);
+require("./routing/htmlRoutes")(app);
