@@ -33,6 +33,7 @@ p {
 }
 
 /*Buttons*/
+
 #cab-nav {
   color: #FF3813;
   background-color: #FFF;
@@ -90,7 +91,7 @@ p {
   background-color: #666;
   padding: 0;
   margin: 0;
-  color: #444;
+  color: #666;
 }
 
 #row1 {
@@ -126,7 +127,8 @@ p {
   background-color: #EAFCFF;
 }
 
-/*Quiz page*/
+/*Quiz Page*/
+
 #info-row {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -141,11 +143,36 @@ p {
   background-color: #EAFCFF;
 }
 
+/*Form*/
+
+.input-field input[type=text]:focus + label {
+   color: #FF3813 !important;
+ }
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #FF3813 !important;
+  box-shadow: 0 1px 0 0 #FF3813 !important;
+}
+
+.input-field input[type=url]:focus + label {
+   color: #FF3813 !important;
+ }
+
+.input-field input[type=url]:focus {
+  border-bottom: 1px solid #FF3813 !important;
+  box-shadow: 0 1px 0 0 #FF3813 !important;
+}
+
+.question {
+  margin-top: 90px;
+  margin-bottom: 45px;
+}
+
 /*Sticky Footer*/
 
 #footer {
   height: 150px;
-  background-color: #555;
+  background-color: #666;
   color: #FFF;
 }
 

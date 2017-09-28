@@ -3,8 +3,7 @@ var matches = [
   {
     "name": "",
     "photo": "",
-    "personality": "",
-    "bio": ""
+    "scores": [1,2,3,4]
   }
 ];
 

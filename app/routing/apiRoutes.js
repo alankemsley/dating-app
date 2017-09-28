@@ -23,7 +23,7 @@ module.exports = function(app) {
 var findMatch = function(user, match) {
   matchScore = 0;
   for (i=0; i<match.scores.length; i++) {
-    matchScore +=Math.abs(match.scores[i] - user.scores[i]);
+    matchScore += Math.abs(match.scores[i] - user.scores[i]);
   }
   getMatch(match, matchScore);
 };
